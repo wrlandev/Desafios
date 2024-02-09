@@ -1,13 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Numerics;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Estacionamento.Models
+﻿namespace Estacionamento.Models
 {
     public class EstacionamentoModel
     {
@@ -26,7 +17,7 @@ namespace Estacionamento.Models
             Console.WriteLine("Digite a placa do veículo para estacionar:");
             var add = Console.ReadLine();
 
-            if(add == null || add.Length < 6 || add.Length > 10)
+            if (add == null || add.Length < 6 || add.Length > 10)
             {
                 Console.WriteLine("A placa precisa ter entre 6 e 10 caracteres");
             }
@@ -45,9 +36,9 @@ namespace Estacionamento.Models
             if (veiculos.Any(x => x.ToUpper() == placa.ToUpper()))
             {
                 Console.WriteLine("Digite a quantidade de horas que o veículo permaneceu estacionado:");
-                decimal horasEstacionado = decimal.Parse(Console.ReadLine()); 
-                
-                var calc = precoInicial + precoPorHora * horasEstacionado; 
+                decimal horasEstacionado = decimal.Parse(Console.ReadLine());
+
+                var calc = precoInicial + precoPorHora * horasEstacionado;
                 decimal valorTotal = calc;
 
                 veiculos.Remove(placa);
@@ -66,7 +57,7 @@ namespace Estacionamento.Models
             {
                 Console.WriteLine("Os veículos estacionados são:");
 
-                foreach(string item in veiculos)
+                foreach (string item in veiculos)
                 {
                     Console.WriteLine($"Veículo com a placa: {item} estacionado!");
                 }
