@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaDeHospedagem", "Sist
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estacionamento", "Estacionamento\Estacionamento.csproj", "{9655CC92-D8E2-4A7C-B0E9-6F58929BD580}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smartphones", "Smartphones\Smartphones.csproj", "{58E04AC1-4507-42F6-8679-39F1A858AD68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smartphones", "Smartphones\Smartphones.csproj", "{58E04AC1-4507-42F6-8679-39F1A858AD68}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrilhaApiDesafio", "WebApi\TrilhaApiDesafio.csproj", "{8638DB9C-063B-4F7D-B630-BB6EAD8ED0A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{58E04AC1-4507-42F6-8679-39F1A858AD68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58E04AC1-4507-42F6-8679-39F1A858AD68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58E04AC1-4507-42F6-8679-39F1A858AD68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8638DB9C-063B-4F7D-B630-BB6EAD8ED0A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8638DB9C-063B-4F7D-B630-BB6EAD8ED0A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8638DB9C-063B-4F7D-B630-BB6EAD8ED0A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8638DB9C-063B-4F7D-B630-BB6EAD8ED0A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
