@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smartphones", "Smartphones\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrilhaApiDesafio", "WebApi\TrilhaApiDesafio.csproj", "{8638DB9C-063B-4F7D-B630-BB6EAD8ED0A2}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "trilha-net-azure-desafio", "Azure\trilha-net-azure-desafio.csproj", "{8A466FCB-EE0E-4F09-88D8-9E0214293750}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestesUnitarios.Desafio.Console", "TestesXunit\TestesUnitarios.Desafio.Console\TestesUnitarios.Desafio.Console.csproj", "{8D16FCBF-D9B8-45CB-9376-AC15715F9639}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{8638DB9C-063B-4F7D-B630-BB6EAD8ED0A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8638DB9C-063B-4F7D-B630-BB6EAD8ED0A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8638DB9C-063B-4F7D-B630-BB6EAD8ED0A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A466FCB-EE0E-4F09-88D8-9E0214293750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A466FCB-EE0E-4F09-88D8-9E0214293750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A466FCB-EE0E-4F09-88D8-9E0214293750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A466FCB-EE0E-4F09-88D8-9E0214293750}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D16FCBF-D9B8-45CB-9376-AC15715F9639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D16FCBF-D9B8-45CB-9376-AC15715F9639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D16FCBF-D9B8-45CB-9376-AC15715F9639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D16FCBF-D9B8-45CB-9376-AC15715F9639}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
